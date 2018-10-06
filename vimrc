@@ -10,6 +10,7 @@ filetype plugin indent on     " required
 "
 " Settings
 "
+set clipboard=unnamedplus
 set noerrorbells                " No beeps
 set number                      " Show line numbers
 set backspace=indent,eol,start  " Makes backspace key more powerful.
