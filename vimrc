@@ -178,7 +178,7 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 " let g:hybrid_use_Xresources = 1
 " let g:rehash256 = 1
-colorscheme solarized
+colorscheme lucario
 set guifont=Inconsolata:h15
 set guioptions-=L
 
@@ -514,10 +514,6 @@ if has('nvim')
   " Use partial fuzzy matches like YouCompleteMe
   call deoplete#custom#source('_', 'matchers', ['matcher_fuzzy'])
   call deoplete#custom#source('_', 'converters', ['converter_remove_paren'])
-  call deoplete#custom#source('_', 'disabled_syntaxes', ['Comment', 'String'])
-endif
-
-" ==================== vim-multiple-cursors ====================
 let g:multi_cursor_use_default_mapping=0
 let g:multi_cursor_next_key='<C-i>'
 let g:multi_cursor_prev_key='<C-y>'
